@@ -4,6 +4,33 @@
   >
     <!-- fluid: 가로폭 max기능-->
     <v-card class="pa-3 ">
+      <v-row no-gutters>
+        <!-- dense: 사이 e14픽셀이 8픽셀로 변경 / no-gutters: 사이 사이즈가 없어짐 max-->
+        <v-col cols="auto">
+          <v-card
+            class="pa-3"
+            outline
+          >
+            Col
+          </v-card>
+        </v-col>
+        <v-col cols="auto">
+          <v-card
+            class="pa-3"
+            outline
+          >
+            Col
+          </v-card>
+        </v-col>
+        <v-col cols="auto">
+          <v-card
+            class="pa-3"
+            outline
+          >
+            Col
+          </v-card>
+        </v-col>
+      </v-row>
       <v-row>
         <v-col>
           <v-card
@@ -30,6 +57,60 @@
           </v-card>
         </v-col>
       </v-row>
+    </v-card>
+    <v-card class="mt-5 pa-3">
+      <v-layout>
+        <v-flex>
+          <v-card
+            class="pa-3"
+            outlined
+          >
+            Col
+          </v-card>
+        </v-flex>
+        <v-flex>
+          <v-card
+            class="pa-3"
+            outlined
+          >
+            Col
+          </v-card>
+        </v-flex>
+        <v-flex>
+          <v-card
+            class="pa-3"
+            outlined
+          >
+            Col
+          </v-card>
+        </v-flex>
+      </v-layout>
+      <v-layout>
+        <v-flex>
+          <v-card
+            class="pa-3"
+            outlined
+          >
+            Col
+          </v-card>
+        </v-flex>
+        <v-flex>
+          <v-card
+            class="pa-3"
+            outlined
+          >
+            Col
+          </v-card>
+        </v-flex>
+        <v-flex>
+          <v-card
+            class="pa-3"
+            outlined
+          >
+            Col
+          </v-card>
+        </v-flex>
+      </v-layout>
     </v-card>
   </v-container>
 </template>
